@@ -1,0 +1,195 @@
+*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+			}
+						img {
+
+							max-width: 100%;
+
+							height: auto;
+
+							}
+			
+					div{
+							
+						}
+						
+						.navbar{
+								display: flex;
+								background-color: #094D92;
+								justify-content: center;
+								padding-right: 50px;
+								gap:10px;
+								min-height:50px;
+								
+								}
+						
+						.navmenu{
+							display: flex;
+							background-color: #094D92;
+							padding:30px;
+							list-style-type:none;
+							column-gap: 25px;
+						
+							}
+							
+							ul li a{
+							color: white;
+							text-decoration: none;
+							font-size: 1.3em;
+							font-family:arial,corbel,san-serif;
+							}
+							
+							.logo{
+							
+							margin-right: 150px;
+						
+							}
+							
+							.bannerone{
+									min-height:500px;
+									background-color: #094D92;
+									background-image:url(images/softwaredev.jpg);
+									background-repeat: no-repeat;
+									background-position: center;
+									background-size: cover;
+									background-attachment:fixed;
+									padding-top: 90px;
+									color:white;
+									text-align:center;
+								
+									}
+									
+									.bannerone h1{
+										font-size: 3em;
+										padding-left:10%;
+										font-family:arial,corbel,san-serif;
+										}
+										
+										.bannerone h2{
+										font-size: 2em;
+										padding-left:10%;
+										font-family:arial,corbel,san-serif;
+					
+											}
+								.bannerone p{
+								font-size: 1.5em;
+									padding-right:5%;
+									padding-left:10%;
+					
+									}
+									
+									.bannertwo{
+										display:flex;
+										min-height: 150px;
+										width: 80%;
+										margin-left: 10%;
+										margin-top: -100px;
+										
+										}
+										.bannertwo .mag{
+										width:50%;
+										
+										border: 1px solid #71C194;
+										
+										background:linear-gradient(to right,rgba(9,77,146,0.5),rgba(71,168,189,0.5));
+										}
+										
+										.mag h3{
+										
+										color: white;
+										font-size: 1.3em;
+										text-align:center;
+										font-family:arial,corbel,san-serif;
+										
+										}
+										
+										.bannerthree{
+										display:flex;
+										min-height: 200px;
+										width: 80%;
+										margin-left: 10%;
+										
+										}
+										
+										.bannerthree .service1{
+										width:33%;
+										min-height: 100%;
+										border: 1px solid #71C194;
+										margin: 0px 20px;
+										background:#094D92;
+										}
+										
+										.ourservice{
+											display:flex;
+											min-height:100px;
+											background-color: #00A5CF;
+											color:white;
+											text-align:Center;
+											justify-content:center;
+											flex-direction: column;
+											padding-top: 30px;
+											padding-bottom: 30px;
+											
+											
+													}
+											
+				
+									.footer{
+											display:flex;
+											background-color: #094D92;
+											min-height: 100px;
+											padding-top:20px;
+											padding-top:20px;
+											justify-content:center;
+											}
+					/* css rule for small screen*/
+		
+		@media all and (max-width:460px){
+		.bannertwo{
+			flex-direction: column;
+		
+		}
+		
+		
+		}
+		
+		/* css rule for medium screen 461px - 760px */
+		
+		@media all and (min-width:461px) and (max-width:760px){
+		
+		
+		.bannertwo{
+		 flex-wrap: wrap;
+		 gap:10px;
+		}
+		
+		.mag{
+		 max-width: 100%;
+		}
+		}
+		
+		@media all and (max-width:460px){
+		.bannerthree{
+			flex-direction: column;
+		
+		}
+		
+		
+		}
+		
+		/* css rule for medium screen 461px - 760px */
+		
+		@media all and (min-width:461px) and (max-width:760px){
+		
+		
+		.bannerthree{
+		 flex-wrap: wrap;
+		 gap:10px;
+		}
+		
+		.service1{
+		 max-width: 100%;
+		}
+		}

@@ -1,0 +1,164 @@
+*{
+								padding: 0;
+								margin: 0;
+								box-sizing: border-box;
+							}
+			
+							div{
+		
+									
+		
+								}
+					
+							.navbar{
+								display: flex;
+								background-color: #094D92;
+								justify-content: center;
+								padding-right: 50px;
+								gap:10px;
+								min-height:50px;
+								
+								}
+						
+							.navmenu{
+								display: flex;
+								background-color: #094D92;
+								padding:10px;
+								list-style-type:none;
+								column-gap: 25px;
+									}
+							
+							ul li a{
+								color: white;
+								text-decoration: none;
+								font-size: 1.3em;
+								}
+							
+							.logo{
+							
+								margin-right: 150px;
+						
+								}
+							
+							.bannerone{
+									min-height:500px;
+									display:flex;
+									flex-direction:column;
+									background-color: #094D92;
+									background-image:url(images/bannerbg.jpg);
+									background-repeat: no-repeat;
+									background-position: center;
+									background-size: cover;
+									background-attachment:fixed;
+									padding-top: 90px;
+									color:white;
+									text-align:center;
+								
+									}
+									
+								.bannerone h1{
+									font-size: 3em;
+									padding-left:10%;
+										}
+										
+								.bannerone h2{
+										font-size: 2em;
+										padding-left:10%;
+										}
+										
+																				
+								.contactus1{
+									display:flex;
+									min-height:100px;
+									background-color: #094D92;
+									color:white;
+									text-align:Center;
+									justify-content:center;
+									flex-direction: column;
+											
+										}
+																	
+									.contactus1 h1{
+										font-size: 3em;
+										padding-left:10%;
+										}
+										
+									.contactus1 p{
+									font-size: 1.em;
+									padding-right:5%;
+									padding-left:10%;
+					
+									}
+									
+								.feedback{
+									display: flex;
+									justify-content:center;
+									padding-top: 30px;
+									padding-bottom: 30px;
+									
+									}
+							.contactme{
+							display: flex;
+							flex-direction: column;
+							padding-left: 30px;
+							max-width:350px;
+							font-size:1.4em;
+							color:#094D92;
+									}
+		
+					.contactme #surname,#tel,#email,#company{
+				
+						height:30px;
+						border:1px solid mint;
+						margin-bottom: 5px;
+									}
+							#submit1{
+							border:1px solid mint;
+							color:#094D92;
+							font-size:1.1em;
+							font-family:arial,corbel,san-serif;
+			
+								}
+								
+								.footer{	min-height: 150px;
+											display:flex;
+											background-color: #094D92;
+											min-height: 100px;
+											padding-top:20px;
+											padding-top:20px;
+											justify-content:center;
+											}
+											
+											.contactme{
+									display: flex;
+									flex-direction: column;
+									padding-left: 30px;
+									max-width:350px;
+									font-size:1.4em;
+									font-family:arial,corbel,san-serif;
+									color:#094D92;
+										}
+			
+			
+								#surname,#tel,#email,#company{
+				
+								height:30px;
+								border:1px solid mint;
+								margin-bottom: 5px;
+												}
+									#submit1{
+									border:1px solid mint;
+									color:#094D92;
+									font-size:1.1em;
+									font-family:arial,corbel,san-serif;
+			
+										}
+							
+		
+		
+		
+						/* css rule for small screen*/
+		
+		
+		
+						/* css rule for medium screen 461px - 760px */

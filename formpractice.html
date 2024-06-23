@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Contact Us Page </title>
+	<style type="text/css">
+			.contactme{
+				display: flex;
+				flex-direction: column;
+				padding-left: 30px;
+				max-width:350px;
+				font-size:1.4em;
+				color:#094D92;
+			
+			}
+			h2{
+				padding-left: 30px ;
+			}
+			
+			#surname,#tel,#email,#company{
+				
+			height:30px;
+			border:1px solid mint;
+			margin-bottom: 5px;
+			
+			
+			}
+			#submit1{
+			border:1px solid mint;
+			color:#094D92;
+			font-size:1.1em;
+			
+			}
+	
+	</style>
+	
+</head>
+	<body>
+		<h2>We Would Love to hear fom you!</h2>
+		<h2>Let's get in touch</h2>
+		<form class="contactme" action="#" method="get">
+		<label for="surname" >Full Name </label>
+		<input type="text" name="surname" id="surname" placeholder="Enter your name" maxlength="25" size="30" cols="30"><br>
+		<label for="tel">Phone Number</label>
+		<input type="tel" id="tel" placeholder="+234 800 000 0000" maxlength="17" size="30">
+		<label for="email">Email</label> 
+		<input type="email" name="email" id="email" placeholder="Enter Your Email" maxlength="30" size="30">
+		<label for="company">Company </label>
+		<input type="text" name="Company" id="company" placeholder="Company" maxlength="25" size="30">
+		<label for="message"> Your Message</label>
+		<textarea name="message" id="message" rows="10"cols="40" placeholder="Type your message here"></textarea>
+		<button  id="submit1" type="submit">Send Message </button>
+		
+		</form>
+		
+		
+		
+	
+	</body>
+
+
+
+
+
+
+
+</html>

@@ -1,0 +1,117 @@
+*{
+					padding: 0;
+					margin: 0;
+					box-sizing: border-box;
+					}
+			
+						div{
+		
+						
+		
+						}
+					
+							.navbar{
+								display: flex;
+								background-color: #094D92;
+								justify-content: center;
+								padding-right: 50px;
+								gap:10px;
+								min-height:50px;
+								
+								}
+						
+						.navmenu{
+							display: flex;
+							background-color: #094D92;
+							padding:10px;
+							list-style-type:none;
+							column-gap: 25px;
+						
+								}
+							
+								ul li a{
+							color: white;
+							text-decoration: none;
+							font-size: 1.3em;
+							font-family:arial,corbel,san-serif;
+								}
+							
+								.logo{
+							
+								margin-right: 150px;
+						
+								}
+							
+								.bannerone{
+									min-height:500px;
+									display:flex;
+									flex-direction:column;
+									background-color: #094D92;
+									background-image:url(images/bannerbg2.jpg);
+									background-repeat: no-repeat;
+									background-position: center;
+									background-size: cover;
+									background-attachment:fixed;
+									padding-top: 90px;
+									color:white;
+									text-align:center;
+								
+									}
+									
+									.bannerone h1{
+										font-size: 3em;
+										padding-left:10%;
+										font-family:arial,corbel,san-serif;
+										}
+										
+										.bannerone a{
+										
+										padding: 20px;
+										text-decoration: none;
+										color: red;
+										font-weight: 900;
+										font-size: 2.1em;
+										font-family:arial,corbel,san-serif;
+										
+										}
+											.aboutus1{
+											display:flex;
+											min-height:100px;
+											background-color: #00A5CF;
+											color:white;
+											text-align:Center;
+											justify-content:center;
+											flex-direction: column;
+													}
+																	
+										.aboutus1 h1{
+										font-size: 3em;
+										padding-left:10%;
+										font-family:arial,corbel,san-serif;
+										}
+										
+										.aboutus1 p{
+									font-size: 1.2em;
+									padding:20px;
+									font-family:arial,corbel,san-serif;
+									
+					
+												}
+																
+								.footer{	min-height: 150px;
+											display:flex;
+											background-color: #094D92;
+											min-height: 100px;
+											padding-top:20px;
+											padding-top:20px;
+											justify-content:center;
+											}
+							
+		
+		
+		
+		/* css rule for small screen*/
+		
+		
+		
+		/* css rule for medium screen 461px - 760px */
